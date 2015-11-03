@@ -1,4 +1,4 @@
-<?
+<?php
 if (!isset($_SESSION['user_id']) && parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) !== '/index.php') 
 {
     header("Location:index.php");
